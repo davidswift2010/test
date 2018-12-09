@@ -1,0 +1,60 @@
+body{
+  color:green;
+  background-image: url("Background.jpg");
+  background-size:cover;
+  margin: 0px;
+}
+h1 {
+  color:green;
+  background-color: black;
+  border : 8px solid green;
+  text-align: center;
+}
+h3 {
+  color:red;
+  background-color: black;
+  border : 8px solid green;
+  margin: 0px;
+  border:0 px;
+}
+p {
+  background-color: black;
+  border : 8px solid green;
+  font-size: 1.2rem;
+}
+ul {
+  color:red;
+  background-color: black;
+  border : 8px solid green;
+}
+form {
+  background-color: lightblue;
+  border : 8px solid black;
+}
+.menu {
+  background-color:cadetblue;
+  color:red;
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
+.menu li{
+  padding:10px;
+  text-align: center;
+  font-size: 2rem;
+  border-bottom: 2px solid black;
+  transition: background-color 0.3s;
+}
+.menu li:hover {
+background-color: black;
+}
+@media screen and (min-width:700px){
+  .menu{
+    text-align: right;
+    }
+  .menu li{
+      display: inline-block;
+      border-left: 2px solid black;
+      text-align: left;
+    }
+}
